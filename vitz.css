@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #fcfcfc;
+  }
+  h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #000000;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-decoration-color: #f8f8f8;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul li {
+    margin-right: 15px;
+  }
+  
+  /*sobre*/
+#about{
+  display:flex;
+  height:100vh;
+  flex-direction: row;
+
+}
+
+#about img{
+float:left;
+margin:0;
+padding:0;
+}
+#about p{
+float:right;
+margin:20px;
+padding:0;
+}
+
+
+  /* Projects section */
+  #projetos {
+    padding: 40px 0;
+  }
+  
+  .projeto {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projeto h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .projeto p {
+    margin: 10px 0;
+  }
+  
+  .projeto a {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .projeto a:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Skills section */
+  #habilidades {
+    padding: 40px 0;
+  }
+  
+  #habilidades h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #habilidades ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #habilidades li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Contact section */
+  #contato {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+  }
+  
+  #contato h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #contato p {
+    margin: 10px 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    color: #007bff;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #0056b3;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px
+  
+  
+  
